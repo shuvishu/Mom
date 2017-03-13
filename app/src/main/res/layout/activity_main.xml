@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sairam.mom.MainActivity"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:id="@+id/mname"
+        android:hint="enter the name"
+        android:layout_marginLeft="10dp"
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:id="@+id/mid"
+        android:hint="enter m_id"
+        android:layout_marginLeft="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/loginbut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:layout_marginLeft="75dp"
+            android:onClick="loginac"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg"
+            android:text="Register here"
+            android:layout_marginLeft="25dp"
+            android:onClick="reg_acc"/>
+    </LinearLayout>
+
+
+</LinearLayout>
